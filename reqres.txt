@@ -1,0 +1,29 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SOAP-ENV:Body>
+		<m:GetVehicleDtlRQ xmlns:m="GetVehicleDtlRQ">
+			<m:LicenseNo>256507</m:LicenseNo>
+		</m:GetVehicleDtlRQ>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+
+
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SOAP-ENV:Body>
+		<m:VehicleAddSoldRQ xmlns:m="VehicleAddSoldRQ">
+			<m:DealerCode>Theeb UAT</m:DealerCode>
+			<m:Make></m:Make>
+			<m:Model>كب121ير</m:Model>
+			<m:Bodystyle></m:Bodystyle>
+			<m:Licenseplateno>44444</m:Licenseplateno>
+			<m:Variant></m:Variant>
+			<m:Location></m:Location>
+			<m:DateOfAddition></m:DateOfAddition>
+			<m:DateOfRemoval></m:DateOfRemoval>
+			<m:VehicleId>4141</m:VehicleId>
+			<m:Vin></m:Vin>
+			<m:Status>Active</m:Status>
+		</m:VehicleAddSoldRQ>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
